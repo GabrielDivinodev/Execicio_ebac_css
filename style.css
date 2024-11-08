@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f8f8ec;
+    font-family: "Cabin", serif;
+}
+
+header{
+    background-color: #02416d;
+    color: #f8f8ec;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    text-align: center;
+}
+
+.navbar{
+    background-color: #f8f8ec;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    list-style: none;
+    color: #02416d;
+    padding: 1rem;
+}
+
+nav a:hover{
+    background-color: #02416d;
+    color: #f8f8ec;
+}
+
+header h1{
+    padding: 2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+}
+
+section{
+    padding: 3rem;
+}
+
+section h2{
+    padding: 2rem 0;
+    color: #02416d;
+}
+
+.negocios-tec{
+    background-color: #02416d;
+    color: #f8f8ec;
+}
+
+.negocios-tec h2{
+    color: #f8f8ec;
+}
+
+.negocios-tec h3{
+    color: #aedd2b;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+article{
+    width: 30%;
+}
+
+article img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+article h3{
+    padding: 0.5rem 0;
+    color: #0a5483;
+}
+
+article a{
+    text-decoration: none;
+    padding: 0.5em;
+    background-color: #aedd2b;
+    color: #f8f8ec;
+    display: inline-block;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
+article a:hover{
+    border-left: 5px inset #0a5483;
+}
+
+footer{
+    padding: 2rem;
+    text-align: center;
+    background-color: #aedd2b;
+    color: #f8f8ec;
+    font-size: large;
+}
+
+footer a{
+    text-decoration: none;
+    color: #02416d;
+    font-weight: 700;
+
+}
